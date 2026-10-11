@@ -1,0 +1,152 @@
+/* ========================================
+   ESTILOS GENERALES
+   ======================================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3eee8;
+    color: #4f463f;
+    line-height: 1.7;
+    margin: 0;
+}
+
+
+/* ========================================
+   ENCABEZADO
+   ======================================== */
+
+header {
+    background-color: #eee5dc;
+    color: #5f5146;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+header p {
+    color: #6d6259;
+    font-size: 1.05rem;
+}
+
+
+/* ========================================
+   CONTENIDO PRINCIPAL
+   ======================================== */
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 70px 20px;
+}
+
+section {
+    background-color: #fffdfb;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(80, 65, 50, 0.08);
+}
+
+section h2 {
+    font-family: Georgia, serif;
+    color: #5f5146;
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+section p {
+    color: #6d6259;
+}
+
+
+/* ========================================
+   BOTÓN
+   ======================================== */
+
+button {
+    background-color: #8f7b69;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 28px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #756355;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(80, 65, 50, 0.15);
+}
+
+
+/* ========================================
+   RESULTADOS
+   ======================================== */
+
+#resultado {
+    background-color: #f3eee8;
+    padding: 20px;
+    border-radius: 12px;
+    color: #5f5146;
+    font-weight: normal;
+}
+
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+footer {
+    background-color: #e4d8cc;
+    color: #5f5146;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+
+/* ========================================
+   DISEÑO RESPONSIVO
+   ======================================== */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 55px 20px;
+    }
+
+    header h1 {
+        font-size: 34px;
+    }
+
+    main {
+        padding: 50px 15px;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        width: 100%;
+        max-width: 250px;
+    }
+}
