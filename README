@@ -1,0 +1,45 @@
+PROYECTO: Práctica de JavaScript
+
+Descripción:
+Esta página web fue desarrollada como parte de una actividad académica para practicar conceptos fundamentales de JavaScript mediante una página HTML y un archivo JavaScript externo.
+
+Tecnologías utilizadas:
+- HTML5
+- CSS3
+- JavaScript
+- Visual Studio
+- Navegador web
+
+Conceptos implementados:
+- Variables y constantes.
+- Diferentes tipos de datos.
+- Arreglos.
+- Objetos.
+- Estructuras condicionales if, else if y else.
+- Bucle for.
+- Bucle while.
+- Bucle do...while.
+- Funciones.
+- Alcance de variables (scope).
+- Clausuras (closures).
+- Iteración de arreglos utilizando forEach().
+- Manipulación de elementos HTML mediante JavaScript.
+- Uso de console.log() para observar resultados en la consola del navegador.
+
+Estructura del proyecto:
+- Index.html: contiene la estructura HTML5 de la página.
+- Style.css: contiene los estilos visuales y el diseño responsivo.
+- script.js: contiene los ejemplos y ejercicios de JavaScript.
+- READE.txt: contiene la descripción del proyecto.
+
+Pruebas:
+El código JavaScript fue probado utilizando la consola de desarrollador del navegador para verificar la salida de las variables, arreglos, objetos, estructuras de control, funciones, scope y closures.
+
+Objetivo:
+Practicar y demostrar el funcionamiento de diferentes conceptos fundamentales de JavaScript mediante ejemplos sencillos y funcionales integrados en una página web.
+
+Autor:
+Nashlee Luciano
+
+GitHub:
+https://github.com/Nashluc/Mi_Tarea_JavaScript.git
